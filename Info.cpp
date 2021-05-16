@@ -127,13 +127,13 @@ int Info::french_menu_Display()
               cout << "Lorsque VNS ne fournit pas une bonne solution, il y a plusieurs etapes qui pourraient etre aidees dans le processus, telles que la comparaison des premieres et des meilleures strategies d'amelioration dans la recherche locale, la reduction du voisinage, l'intensification des tremblements, l'adoption de VND, l'adoption du FSS et l'experimentation des reglages de parametres." ;
               gotoxy(0,13);
               cout << endl;
-              cout << "Aide : A propos de l'application et les noms des développeurs. ";
+              cout << "Aide : A propos de l'application et les noms des dÃ©veloppeurs. ";
               gotoxy(0,15);
               cout << endl;
               cout << "Algorithme VND (simulation) : Application console de simulation de l'algorithme Variant neighberhood descent. ";
               gotoxy(0,17);
               cout << endl;
-              cout << "quitter : Quittez complètement l'application. " ;
+              cout << "quitter : Quittez complÃ¨tement l'application. " ;
               gotoxy(50,19);
               cout <<"\n********************************************************************************************************************";
               gotoxy(40,21);
@@ -404,7 +404,7 @@ int Info::french_menu_Display()
                   		if (f_ofx1 <= f_ofx2)
                   		{
                   			better_solution = f_ofx1;
-                  			cout << "the best solution from the Variant neughberhood decsent is :" << better_solution <<endl;
+                  			cout << "the best solution from the Variant neighberhood decsent is :" << better_solution <<endl;
                   	        return better_solution;
 						  }
 						  
@@ -414,7 +414,7 @@ int Info::french_menu_Display()
                   		  	
                   		  	neighberhood++;
                   			 better_solution = f_ofx2;
-                  		    cout << "the best solution from the Variant neughberhood decsent is :" << better_solution <<endl;
+                  		    cout << "the best solution from the Variant neighberhood decsent is :" << better_solution <<endl;
                             return better_solution;
 						  }
                   		   
@@ -452,7 +452,7 @@ int Info::french_menu_Display()
                   		if (f_ofx1 <= f_ofx2)
                   		{
                   			better_solution = f_ofx1;
-                  			cout << "the best solution from the Variant neughberhood decsent is :" << better_solution <<endl;
+                  			cout << "the best solution from the Variant neighberhood decsent is :" << better_solution <<endl;
                   	        return better_solution;
 						  }
 						  
@@ -462,7 +462,7 @@ int Info::french_menu_Display()
                   		  	
                   		  	neighberhood++;
                   			 better_solution = f_ofx2;
-                  		    cout << "the best solution from the Variant neughberhood decsent is :" << better_solution <<endl;
+                  		    cout << "the best solution from the Variant neighberhood decsent is :" << better_solution <<endl;
                             return better_solution;
 						  }
                   		      
@@ -477,7 +477,7 @@ int Info::french_menu_Display()
                   		if (f_ofx1 <= f_ofx2)
                   		{
                   			better_solution = f_ofx1;
-                  			cout << "the best solution from the Variant neughberhood decsent is :" << better_solution <<endl;
+                  			cout << "the best solution from the Variant neighberhood decsent is :" << better_solution <<endl;
                   	        return better_solution;
 						  }
 						  
@@ -487,7 +487,7 @@ int Info::french_menu_Display()
                   		  	
                   		  	neighberhood++;
                   			 better_solution = f_ofx2;
-                  		    cout << "the best solution from the Variant neughberhood decsent is :" << better_solution <<endl;
+                  		    cout << "the best solution from the Variant neighberhood decsent is :" << better_solution <<endl;
                             return better_solution;
 						  }
                   		   
